@@ -1,47 +1,70 @@
-![Logo-nav](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/Kalvium-Logo.png)
+# Getting Started with Create React App
 
-### Learning Goals | Pro-Tips:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-The aim of this lab is to apply the understanding of `forms` and `routers` together.
+## Available Scripts
 
-***Do not forget to use the following command: `npm install react-router-dom` inorder to use router's. ***
+In the project directory, you can run:
 
-### Steps to follow:
+### `npm start`
 
-1. create a new react project -> using the following command: `npx create-react-app pro-tips`.
-2. You have to make a navbar as shown below:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-![](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/react-routers-forms.gif)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-As you can see, that ->
+### `npm test`
 
-1. If we click on Contacts --> we are directed to contacts page.
-2. If we click on Registration Form --> we are directed to a page -> where a form is displayed to us.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-    2.1  Your form can be very similar to what we have already created in previous lab on `forms`, here is a quick description of the same:
+### `npm run build`
 
-    Your form should have the following fields-
-        1. First Name
-        2. Last Name
-        3. Email
-        4. Contacts
-        At the end of the form, you should have a button named as `Register`. Upon clicking on this button, your form should be get submitted - and a message should pop-up -> `Registration succesfull!` for validation purpose.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-      **NOTE:** You should not get `Registration succesfull!` message, if any of the field is empty. If any field is empty, you should give some message/warning. For eg:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-      If I submit the form, without filling out the first-name field, then I should get a message that `Please enter your first name!`.
-      Here is demo for your refernce:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
 
-![](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/form-react.gif)
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-3. If we click on the name of the site (Kalvium) --> we are directed to the Home page.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You have to achieve the same, using `router's` and `forms`.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-**NOTE:** Keep in mind the structure of your application as well. Try to create different components for each page.
-For eg: you can create a component as `Contact.js` --> where you write the logic for the Contact page, and similarly for other pages. --> this will help you to organize your application structure.
+## Learn More
 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Happy Coding ❤️!
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

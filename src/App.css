@@ -1,0 +1,72 @@
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar span{
+  display: flex;
+  gap: 30px;
+}
+
+
+.formmm{
+  background-color: white;
+  padding: 10px;
+}
+
+button{
+  margin-top: 0px;
+  padding: 10px;
+  background-color: brown;
+  cursor: pointer;
+}
+
+.success{
+  background-color: blue;
+  color: white;
+  font-weight: 400;
+  padding: 5px;
+}
+
+
+.formm p{
+  color: red;
+  font-size: 15px;
+  /* border: 2px solid black; */
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  margin-top: -20px;
+  /* display: none; */
+}
+
+.form{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(164, 152, 152);
+}
+
+.formm{
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+input {
+  padding: 10px;
+  background-color: rgb(245, 234, 234);
+  border: none;
+  margin: 9px;
+  /* border: 2px solid black; */
+}
+
+input:focus{
+  outline: none;
+  border: 2px solid blue;
+  box-sizing: border-box;
+}
+
